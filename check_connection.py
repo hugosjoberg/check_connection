@@ -95,11 +95,11 @@ def get_stats(path_to_csv):
 
 def post_to_twitter(isp_name, path_to_plot, delay_percent, loss_percent):
     """Posts a comment and picture to the ISP."""
-    consumer_key = "G1Awbksi11UYWuuNO51BYqPIC"
-
-    consumer_secret = "lDPZrmzLFMFjE5Tr1yM8ZIMF21KGlZFhIZQ1Ss1DF5rzbouFPg"
-    access_token_key = "717039522454773761-qApvRhaTZhoxatMu7WdDc6tJ0kl6iKi"
-    access_token_secret = "cGJ5HEQkgcKbVABFVoNQKZyKfOzK67w0nfxRC5yukdgrX"
+    
+    consumer_key = ""
+    consumer_secret = ""
+    access_token_key = ""
+    access_token_secret = ""
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token_key, access_token_secret)
